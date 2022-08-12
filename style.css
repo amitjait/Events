@@ -1,5 +1,26 @@
-/* .social-icons{
-    display: flex;
-    margin: auto;
+.header{
+    background-color: #0AAAA0;
+    height: 2.5rem;
+}
+
+.social{
+    float: right;
+    padding-top: .5rem;
+    color: white;
+    margin: 0rem 15rem 0rem 0rem;
+    /* width: 10%; */
+    width: fit-content;
+    font-size: 14px;
+}
+.icn{
+    color: white;
+    margin-left: 1rem;
+}
+
+.background{
+    background-image: url("Background_pic.png");
+    background-repeat: no-repeat;
     
-} */
+    height: 50vh;
+
+}
