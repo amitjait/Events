@@ -46,6 +46,13 @@
     padding-left: 10rem;
 }
 .content{
-    height: 25rem;
-    width: 50%;
+    padding-top: 5rem;
+}
+.cards{
+    width: 45rem;
+    margin-bottom: 4rem;
+}
+.subVid{
+    margin: 2rem auto;
+    padding-left: 2rem;
 }
