@@ -90,7 +90,10 @@
 
 /* --------------------media query---------------- */
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
+    .body{
+        margin: 0px;
+    }
     .header{
         /* background-color: #0AAAA0; */
         background-color: red;
@@ -115,14 +118,14 @@
     .background{
         background-image: url("Background_pic.png");
         background-color: #0AAAA0;
-        height: 60vh;
+        height: 25vh;
         background-size: 100%;
         opacity: 80%;
         background-repeat: no-repeat;
         
     }
     .backDiv{
-        padding-top: 10rem;
+        padding-top: 4rem;
         margin: 0 auto;
         width: fit-content;
         text-align: center;
@@ -133,7 +136,7 @@
         margin: 0 auto;
     }
     .backH1{
-        font-size: 4rem;
+        font-size: 1.5rem;
         margin: 0 auto;
     }
     .centDiv{
@@ -160,21 +163,25 @@
         color: white;
         /* background-color: blue; */
         text-align: center;
-        width: 80%;
+        width: 100%;
         
     }
     .contact{
-        color: white;
-        margin: 0rem auto;
+        /* margin: 0rem auto; */
         color: white;
         /* background-color: red; */
-        text-align: left;
-        width: 80%;
+        /* text-align: left; */
+        width: fit-content;
+        /* width: 100%; */
     }
     .add{
         margin-bottom: 10rem auto;
     }
     .mainDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
         display: flex;
         flex-direction: column;
     }
