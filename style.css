@@ -8,7 +8,6 @@
     padding-top: .5rem;
     color: white;
     margin: 0rem 15rem 0rem 0rem;
-    /* width: 10%; */
     width: fit-content;
     font-size: 14px;
 }
@@ -38,7 +37,7 @@
     margin: 0 auto;
 }
 .backH1{
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 0 auto;
 }
 .centDiv{
@@ -47,7 +46,6 @@
 }
 .content{
     padding-top: 5rem;
-    width: 60%;
     margin-right: 5rem;
 }
 .cards{
@@ -90,7 +88,7 @@
 
 /* --------------------media query---------------- */
 
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 768px) {
     .body{
         margin: 0px;
     }
@@ -101,12 +99,10 @@
     }
     
     .social{
-        /* float: inline-end; */
+        float: none;
         padding-top: 0.5rem;
         color: white;
-        /* margin: 0rem 15rem 0rem 0rem; */
-        /* width: 10%; */
-        /* width: 50%; */
+        margin: 0 auto;
         padding-left: 0rem;
         font-size: 12px;
     }
@@ -145,7 +141,6 @@
     }
     .content{
         padding-top: 5rem;
-        width: 100%;
         margin: 0 auto;
         
     }
@@ -154,9 +149,13 @@
         margin-bottom: 4rem;
         float: left;
     }
+    .Vhead{
+        margin: 0 auto;
+    }
     .subVid{
         margin: 2rem auto;
-        padding-left: 2rem;
+        padding-left: 0;
+        font-weight: bold;
     }
     .details{
         margin: 0rem auto;
@@ -169,13 +168,14 @@
     .contact{
         /* margin: 0rem auto; */
         color: white;
-        /* background-color: red; */
-        /* text-align: left; */
-        width: fit-content;
-        /* width: 100%; */
+       margin: 0 auto;
     }
     .add{
         margin-bottom: 10rem auto;
+    }
+    .subVid h4{
+        font-size: 15px;
+        width: 100%;
     }
     .mainDiv{
         display: flex;
