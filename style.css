@@ -66,6 +66,7 @@
     /* background-color: blue; */
     text-align: center;
     width: 80%;
+    padding-bottom: 2rem;
     
 }
 .contact{
@@ -75,6 +76,7 @@
     /* background-color: red; */
     text-align: left;
     width: 80%;
+    padding-bottom: 2rem;
 }
 .add{
     margin-bottom: 10rem auto;
@@ -166,6 +168,7 @@
     /* background-color: blue; */
     text-align: center;
     width: 80%;
+    padding-bottom: 4rem;
     
 }
 .contact{
@@ -175,6 +178,7 @@
     /* background-color: red; */
     text-align: left;
     width: 80%;
+    padding-bottom: 4rem;
 }
 .add{
     margin-bottom: 10rem auto;
@@ -271,12 +275,16 @@
         /* background-color: blue; */
         text-align: center;
         width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
         
     }
     .contact{
         /* margin: 0rem auto; */
         color: white;
-       margin: 0 auto;
+       /* margin: 0 auto; */
+       padding-bottom: 4rem;
+       /* text-align: left; */
     }
     .add{
         margin-bottom: 10rem auto;
@@ -372,12 +380,15 @@
         /* background-color: blue; */
         text-align: center;
         width: 100%;
+        padding-left: 1rem;
+        padding-right: 2rem;
         
     }
     .contact{
         /* margin: 0rem auto; */
         color: white;
        margin: 0 auto;
+       padding-bottom: 4rem;
     }
     .add{
         margin-bottom: 10rem auto;
@@ -474,12 +485,15 @@
         /* background-color: blue; */
         text-align: center;
         width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
         
     }
     .contact{
         /* margin: 0rem auto; */
         color: white;
        margin: 0 auto;
+       padding-bottom: 4rem;
     }
     .add{
         margin-bottom: 10rem auto;
@@ -579,12 +593,16 @@
         /* background-color: blue; */
         text-align: center;
         width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        /* padding-bottom: 4rem; */
         
     }
     .contact{
         /* margin: 0rem auto; */
         color: white;
        margin: 0 auto;
+       padding-bottom: 4rem;
     }
     .add{
         margin-bottom: 10rem auto;
@@ -604,7 +622,7 @@
 }
 
 
-/* --------------------media query for min 401 and max 760---------------- */
+/* --------------------media query for min 1001 and max 1400---------------- */
 
 @media only screen and (min-width: 1001px) and (max-width: 1400px) {
     .body{
@@ -679,12 +697,15 @@
         /* background-color: blue; */
         text-align: center;
         width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
         
     }
     .contact{
         /* margin: 0rem auto; */
         color: white;
        margin: 0 auto;
+       padding-bottom: 4rem;
     }
     .add{
         margin-bottom: 10rem auto;
